@@ -1,0 +1,36 @@
+
+크로샷 계정 테이블
+
+seq
+cert_id 					20
+cert_password			50
+cert_name				50
+cert_center_distinct		CTYMD001 (양천구 목동 001), CTJHW001 (종로구 회화), 센터가 여러개 될 경우,
+cert_host					1 (1호기/2호기)
+cert_master_seq
+cert_introduce
+cert_requester
+create_date
+create_user
+update_date
+update_user
+
+CERT_
+계정식별자
+계정아이디
+계정패스워드
+계정명
+계정센터구분
+마스터계정
+설명
+발급자
+생성일시
+생성자
+수정일시
+수정자
+
+
+
+
+
+
