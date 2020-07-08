@@ -1,6 +1,9 @@
+server:
+  port: 8081
+
 spring:
   freemarker:
-    template-loader-path: classpath:/templates/
+    template-loader-path: classpath:/templates
     suffix: .ftl
 
   h2:
@@ -13,7 +16,6 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     password:
-
 
 flyway:
   enabled: true
